@@ -1,0 +1,27 @@
+{
+  "name": "browserlib",
+  "version": "1.0.0",
+  "description": "Wrappers around common browser-based functionality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jeffharrell/browserlib.git"
+  },
+  "keywords": [
+    "browser",
+    "event",
+    "css"
+  ],
+  "author": "Jeff Harrell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeffharrell/browserlib/issues"
+  },
+  "homepage": "https://github.com/jeffharrell/browserlib",
+  "devDependencies": {
+    "mocha": "^1.20.1"
+  }
+}
