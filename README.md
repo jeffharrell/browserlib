@@ -27,7 +27,7 @@ Provides support for DOM eventing.
 
 Provides support for data storage using localStorage.  
 
-`function Storage(name, duration)`
+`function Storage(name, duration)`  
 `storage.load()`  
 `storage.save(data)`  
 `storage.destroy()`  
