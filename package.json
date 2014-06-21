@@ -1,6 +1,6 @@
 {
   "name": "browserlib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wrappers around common browser-based functionality.",
   "main": "index.js",
   "scripts": {
