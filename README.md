@@ -8,9 +8,9 @@ Wrappers around common browser-based functionality.
 
 Provides support for changing CSS styles on DOM elements.
 
-`css.add(el, str)`  
-`css.remove(el, str)`  
-`css.inject(el, str)`  
+`browserlib.css.add(el, str)`  
+`browserlib.css.remove(el, str)`  
+`browserlib.css.inject(el, str)`  
 
 
 
@@ -18,8 +18,8 @@ Provides support for changing CSS styles on DOM elements.
 
 Provides support for DOM eventing.  
 
-`events.add(obj, type, fn, scope)`  
-`events.remove(obj, type, fn)`  
+`browserlib.events.add(obj, type, fn, scope)`  
+`browserlib.events.remove(obj, type, fn)`  
 
 
 
@@ -27,7 +27,7 @@ Provides support for DOM eventing.
 
 Provides support for data storage using localStorage.  
 
-`function Storage(name, duration)`  
+`new browserlib.Storage(name, duration)`  
 `storage.load()`  
 `storage.save(data)`  
 `storage.destroy()`  
